@@ -11,3 +11,8 @@ var s = n1 + n2 + n3 + n4//  number para string
 window.alert('O resultado é ' + s)
 var j = 'JavaScript'
 window.alert('Que bom ' + nome + ' você está aprendendo ' + j + '.')
+
+/*var nu1 = 10
+var nu2 = '2' // o JavaScript automaticamente por entender que um number não pode fazer oporação com uma string, só não para a adição. Para a adição usar o placeholder.
+console.log(nu1 * nu2)
+console.log(nu1 * nu2, typeof nu1, typeof nu2)*/
