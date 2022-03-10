@@ -1,4 +1,4 @@
-var idade = 17
+var idade = 20
 var paisPresentes = true
 var bilheteComprado = true
 if(!bilheteComprado){
@@ -12,9 +12,9 @@ if(!bilheteComprado){
 }
 console.log( )
 var n1 = 4
-var n2 = 7
+var n2 = 8
 var n3 = 9
-var n4 = 6
+var n4 = 7
 const media = (n1 + n2 + n3 + n4) / 4
 console.log(`media: ${media}`)
 
