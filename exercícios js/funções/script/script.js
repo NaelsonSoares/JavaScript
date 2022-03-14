@@ -20,7 +20,7 @@ function diasemana(){
     return new Date(). getDay()
 }
 document.write(diasemana())
-document.write(' por que hoje é sábado<br>')
+document.write(' o dia da semana<br>')
 
 //recebendo parãmetros
 function somar(n1 = 0, n2 = 0){
@@ -28,7 +28,7 @@ function somar(n1 = 0, n2 = 0){
     //let n2 = n2 || 0
     return n1 + n2
 }
-let soma = somar(3, 5, 8)// para javascript não faz diferença, vai somr apenas oe primeiros
+let soma = somar(3, 5, 8)// para javascript não faz diferença, somar só as variáveis
 document.write(soma)
 document.write('<br>')
 document.write(somar(10))
