@@ -12,10 +12,13 @@ const arr2 = new Array(true, 'Panqueca', 42, new Array(2, 5, 7))
 
 // sintaxe de array literal
 const arr3 = ['chiquita', 50, [5, 6, 7], true]
-arr3 [4] = arr
+arr3 [4] = 'a'
 arr3[arr3.length] = 'b'
 arr3.push('push')
 arr3.push('a', 'b', 'c')
 
         console.log(arr3)
         console.log(arr3[2])
+        console.log(arr3[2][0])
+        let n = 6
+        console.log(arr3[n])
