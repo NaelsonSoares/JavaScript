@@ -9,5 +9,5 @@ const pessoa = {
 
         for (let propriedade in pessoa){
             console.log(propriedade) //mostra quais são as propriedades
-            console.log(pessoa[propriedade])//mostra quais são as propriedades e seus valores
+            //console.log(pessoa[propriedade])//mostra quais são as propriedades e seus valores
         }
