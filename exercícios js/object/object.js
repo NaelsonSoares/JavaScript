@@ -11,7 +11,7 @@
 
 //sintaxe literal
 const pessoa = {
-    nome: 'Daniel',
+    nome: 'Daniel',   //Declaração em propriedade utiliza : e não = com virgula simplis no final
     idade: 40
 }
     console.log(pessoa)
