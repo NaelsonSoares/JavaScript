@@ -1,5 +1,5 @@
 
-
+//function literais
 function bom(){
     document.write('Bom dia em declaração de function<br>')
 }
