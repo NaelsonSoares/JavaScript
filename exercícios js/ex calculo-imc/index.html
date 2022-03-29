@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stylus/stylus.css">
+    <title>Calculando IMC</title>
 </head>
 <body>
-    Peso <input id="peso" type="number"> <br/>
-    Altura  <input id="altura" type="number"> <br/>
-    <button onclick="mostrarIndice()">Mostrar IMC</button>
-    <button onclick="limparIndice()">Limpar IMC</button>
-    <div id="output"></div>
-    
-    <script src="imc.js"></script>
+    <main>
+        <div class="container">
+          <div class="title"> Calculadora - IMC </div>
+          <div class="input">
+              <label>Nome:</label>
+              <input type="text" id='nome'>
+          </div>
+          <div class="input">
+              <label>Altura:</label>
+              <input type="number" id='altura'>
+          </div>
+          <div class="input">
+              <label>Peso:</label>
+              <input type="number" id='peso'>
+          </div>
+          <button id='calcular'>Calcular</button>
+  
+          <div class="result" id='resultado'></div>
+        </div>
+      </main>
+      <footer class="rodape">
+        Criador por <a href="https://www.youtube.com/channel/UCUx9gTvh8siElre9J7rF18w" target="_blank">Fernando Leonid</a>
+    </footer>
+    <script src="script/imc.js"></script>
 </body>
 </html>
