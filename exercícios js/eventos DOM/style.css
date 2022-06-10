@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* eventos com o DOM usando o mouse */
+
+h1{
+    background-color: rgb(44, 44, 148);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 30px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+#mouse{
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    height: 150px;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 75px;
+}
+
+/* eventos de soma */
+
+#somaValor{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+h2{
+    font-size: 1.8rem;
+}
+#txtn1{
+    width: 50px;    
+}
+#txtn2{
+    width: 50px;
+}
+#res{
+    background-color: white;
+    width: 200px;
+    color: black;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+/* condição simples */
+
+#detran{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    height: 270px;
+    width: 550px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+#resul{
+    background-color: white;
+    width: 530px;
+    height: 110px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* condição composta */
+
+#viagem{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    height: 270px;
+    width: 550px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+#origem{
+    background-color: white;
+    width: 530px;
+    height: 110px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* condição aninhadas */
+
+#eleicao{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    height: 270px;
+    width: 550px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+#resultado{
+    background-color: white;
+    width: 530px;
+    height: 110px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}

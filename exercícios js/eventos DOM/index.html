@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos no DOM</title>
+</head>
+<body>
+    <!-- eventos com o mouse-->
+    <h1>
+        Movimentos com Mouse
+    </h1>
+    <div id="mouse" onclick="clicar()" onmouseenter="entra()" onmouseout="sai()">
+        Interaja
+    </div>
+
+    <!-- eventos de soma-->
+<h1>
+    Somando dois Valores
+</h1>
+    <div id="somaValor">
+        <h2>
+            Calculo de Adição 
+        </h2>
+        <input type="number" name="txtn1" id="txtn1"> +
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="somar" onclick="somar()">
+        <div id="res">
+            Resultado
+        </div>
+    </div>
+
+    <!-- condições-->
+    <h1>
+        Condição Simples
+    </h1>
+    <div id="detran">
+        <h2>
+            Sistema de Multas
+        </h2>
+        Velocidade do carro: <input type="number" name="txtvel" id="txtvel">
+        <input type="button" value="verificar" onclick="calcular()">
+        <div id="resul"></div>
+    </div>
+
+    <h1>
+        Condição Composta
+    </h1>
+    <div id="viagem">
+        <h2>
+            Aeroporto
+        </h2>
+        Pais de origem: <input type="text" name="txtp" id="txtp">
+        <input type="button" value="consultar" onclick="consultar()">
+        <div id="origem"></div>
+    </div>
+
+    <h1>
+        Condição Aninhadas
+    </h1>
+    <div id="eleicao">
+        <h2>
+            Justiça Eleitoral
+        </h2>
+        Qual a sua idade: <input type="number" name="voto" id="voto">
+        <input type="button" value="conferir" onclick="conferir()">
+        <div id="resultado"></div>
+    </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
