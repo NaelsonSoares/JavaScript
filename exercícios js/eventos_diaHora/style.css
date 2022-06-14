@@ -5,7 +5,7 @@
     margin: 0;
 }
 body{
-    background-color: rgb(134, 192, 240);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -13,35 +13,34 @@ header{
     color: white;
     margin-top: 50px;
     text-align: center;
+    
+
 }
-section{
-    background-color: white;
-    /*background-image: url(imagens/fototarde.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;*/
-    width: 500px;
-    border-radius: 10px;
+#foto{
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    position: absolute;
+    border-radius: 15px;
     margin: auto;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.377);
 }
+section{
+    width: 500px;
+    margin: auto;
+}
 footer{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 25px;
     color: white;
     font-style: italic;
 }
 div{
+    position: relative;
     text-align: center;
     padding: 10px;
 }
-/*#foto{
-    width: 500px;
-    margin: auto;
-    background-color: white;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}*/
