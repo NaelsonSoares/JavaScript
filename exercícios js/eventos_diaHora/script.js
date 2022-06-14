@@ -3,7 +3,7 @@ function visualizar(){
     let img = document.getElementById('imagem')
     let foto = document.getElementById('foto')
     let agora = new Date()
-    //let h = 
+    //let h = 19
     let h = agora.getHours()
     let m = agora.getMinutes()
     let hm = [h, m].join(':')
