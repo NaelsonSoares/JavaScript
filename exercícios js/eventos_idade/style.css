@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(252, 108, 108);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: auto;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+
+}
+section{
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.493);
+    
+}
+footer{
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-style: italic;
+}
+div{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    padding-top: 15px;
+}
+input{
+    width: 85px;
+    height: 30px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.escolha input{
+    display: inline;
+    width: 22px;
+    height: 15px;
+}
