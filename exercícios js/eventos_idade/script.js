@@ -17,7 +17,7 @@ function verificar(){
         }else if(sexo[1].checked){
             genero = 'Feminino'
         }
-        mensagem.innerHTML += `<p>Sexo ${genero} com idade de ${idade}</p>`
+        mensagem.innerHTML += `<p>Sexo ${genero} com idade de ${idade} anos</p>`
 
         if(idade <= 10){
             mensagem.innerHTML += `<p>Ainda é uma criança!</p>`
@@ -32,6 +32,7 @@ function verificar(){
         else if(idade >= 65){
             mensagem.innerHTML += `<p>Um(a) idoso(a)!</p>`
         }
+        
     }
 
         
